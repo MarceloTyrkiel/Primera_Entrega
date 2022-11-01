@@ -1,0 +1,81 @@
+<div class="row">
+  <div class="col-md-4 offset-md-4">
+    <div class="card bg-light">
+      <div class="card-body">
+        <form action="{{url}}" method="{{metodo}}">
+          <div class="mb-3">
+            <input
+              type="text"
+              name="title"
+              placeholder="Producto"
+              class="form-control"
+              value="{{producto.title}}"
+              autofocus
+            />
+          </div>
+          
+          <div class="mb-3">
+             <textarea
+              name="description"
+              class="form-control"
+              placeholder="Descripcion"
+              rows="3"
+            >{{producto.description}}</textarea>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="code"
+              placeholder="Codigo"
+              class="form-control"
+              value="{{producto.code}}"
+              autofocus
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="thumbnail"
+              placeholder="Escribi una url"
+              class="form-control"
+              value="{{producto.thumbnail}}"
+              autofocus
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="price"
+              placeholder="Precio"
+              class="form-control"
+              value="{{producto.price}}"
+              autofocus
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="stock"
+              placeholder="Stock"
+              class="form-control"
+              value="{{producto.stock}}"
+              autofocus
+            />
+          </div>
+
+          </div>
+          
+          
+          
+
+          <button type="submit" class="btn btn-primary btn-block">
+          {{botonName}}
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

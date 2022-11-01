@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Regla",
+    "description": "30 cm plastica",
+    "code": "plas-525874",
+    "price": "1000",
+    "stock": "100",
+    "id": "20"
+  },
+  {
+    "title": "Escuadra",
+    "description": "linda",
+    "code": "jklo-6951",
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/essentials-74/24/006_-_Image-256.png",
+    "price": "1250",
+    "stock": "250",
+    "id": "10"
+  },
+  {
+    "title": "8",
+    "description": "8",
+    "code": "8",
+    "thumbnail": "8",
+    "price": "8",
+    "stock": "8",
+    "id": "21"
+  }
+]

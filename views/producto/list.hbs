@@ -1,0 +1,12 @@
+<div class="row">
+  {{#if productos.length}}
+    {{#each productos}}
+      <div class="col-md-3">
+          {{> ProductoCard }}
+      </div>
+    {{/each}}
+  {{else}}
+    <p class="text-black display-3 text-center my-5">No tenemos productos</p>
+  {{/if}}
+
+</div>
